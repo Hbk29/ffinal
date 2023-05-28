@@ -33,7 +33,7 @@ public class uploadfile {
 		
 		driver.findElement(By.xpath("//*[@id=\"heroSection-container\"]/div[3]/div[2]/div[2]")).click();
 
-		System.out.println("di it ");
+		System.out.println("di it again");
 		//1st way == Uploading File by using sendkeys
 		driver.findElement(By.id("file-upload")).sendKeys("C:\\Users\\Umesh Patil\\Desktop\\TC\\resume.docx");
 	
